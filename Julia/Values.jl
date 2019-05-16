@@ -1,0 +1,7 @@
+println("1+1 ",1+1)
+println("1*2 ",1*2)
+println("1/2 ", 1/2)
+println("1/2. ", 1/2.)
+println("1.0/2 ", 1.0/2)
+println(true & false)
+println(true | false)
