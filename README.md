@@ -6,12 +6,12 @@ Coding has become a crucial part of science in the last years. This specially be
 
 This repository has some codes using different languages. The aim of this is to be used as a training exercise and a recopilation of codes using as many languages as possible, from the most basics to more advanced stuff.
 
-I have been programming for some years now, and most of the applications I did were done on  `Python` and  `C/C++` and it was enough for the particular problems I was facing at that time, but recently I've got interested on some other things, as learning new languages (Such as `Julia`) and Optimization/Parallelization techniques (Such as Cython, Numba, OpenMP, MPI, CUDA) but as usual in science, time is an issue.
+I have been programming for some years now, and most of the applications I did were done on  `Python` and  `C/C++` and it was enough for the particular problems I was facing at that time, but recently I've got interested on some other things, as learning new languages (Such as `Julia`) and Optimization/Parallelization techniques (Such as `Cython`, `Numba`, `OpenMP`, `MPI`, `CUDA`) but as usual in science, time is an issue.
 
 
 ## Julia Coding
 
-Currently, it has been used to save the codes done while learning Julia. This comparing sintax with python, and then some perfomance with C/C++, C++/openmp, python/numba, python/cython is expected to be done.
+Currently, it has been used to save the codes done while learning Julia. This comparing sintax with python, and then some perfomance with `C/C++`, `C++/openmp`, `python/numba`, `python/cython` is expected to be done.
 
 
 ### About
