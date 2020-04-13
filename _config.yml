@@ -2,3 +2,5 @@ theme: jekyll-theme-minimal
 title: Learning
 github.is_project_page: false
 is_project_page: true
+logo: https://avatars3.githubusercontent.com/u/39960794?s=460&v=4
+show_downloads: true
