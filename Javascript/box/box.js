@@ -6,8 +6,8 @@ var color = "#e6ccff";
 var g = 0.0; // acceleration due to gravity
 var x = 50;  // initial horizontal position
 var y = 50;  // initial vertical position
-var vx = Math.random();  // initial horizontal speed
-var vy = Math.random();  // initial vertical speed
+var vx = 5*Math.random();  // initial horizontal speed
+var vy = 5*Math.random();  // initial vertical speed
 
 window.onload = init;
 
