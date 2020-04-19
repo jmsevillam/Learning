@@ -28,6 +28,10 @@ function onEachStep() {
     x = canvas.width - radius; // reposition it at the ground
     vx *= -1; // then reverse and reduce its vertical speed
   }
+  if (x <  radius){ // if ball hits the ground
+    x =  radius; // reposition it at the ground
+    vx *= -1; // then reverse and reduce its vertical speed
+  }
 
   if (x > canvas.width + radius){ // if ball goes beyond canvas
     x = -radius; // wrap it around
