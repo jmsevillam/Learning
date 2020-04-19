@@ -13,11 +13,16 @@ I have been programming for some years now, and most of the applications I did w
 
 Currently, it has been used to save the codes done while learning Julia. This comparing sintax with python, and then some perfomance with `C/C++`, `C++/openmp`, `python/numba`, `python/cython` is expected to be done.
 
+## Javascript
+
+Javascript offers the possibility to interact with html elements
+
 ## Resources
 
  - Learn X in Y minutes [link](https://learnxinyminutes.com/): I liked the style as it is just a simple example introducing the main features. I really liked makefile - Julia and Ruby tutorials.
  - Julia by example [link](https://juliabyexample.helpmanual.io/): I like these learn by example ideas and here is one of many Julia links.
  
+ - Free Code Camp [link](https://www.freecodecamp.org/learn/): Great free interactive courses (I have tried so far html, css and javascript)
 ### About
 My name is Jose Mauricio Sevilla Moreno, I am a physicist just trying to document his experience and ideas doing computational physics. This may include some useful tips for somebody else who also enjoy code+science.
 
