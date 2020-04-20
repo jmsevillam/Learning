@@ -23,8 +23,8 @@ function animate(){
     d = document.getElementById('inputd').value;
     x = y = 0.0;
     //canvas fill style
-    $.fillStyle = "hsla(270, 85%, 15%, 1);";
-    $.fillRect (0, 0, 1, 1);
+    $.fillStyle = "hsla(0, 0%, 100%, 1);";
+    $.fillRect (0, 0, 600, 600);
 
     reset = false;
   }
