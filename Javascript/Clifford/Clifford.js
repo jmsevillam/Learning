@@ -29,7 +29,7 @@ function animate(){
     reset = false;
   }
   //fill drawing with random / rainbow colors
-  $.fillStyle = rndColor();
+  //$.fillStyle = rndColor();
   //draw 100 times over these x,y positions
   for(var i = 0; i < 100; i++){
     $.fillRect (300+x*100, 300+y*100, 1, 1);
