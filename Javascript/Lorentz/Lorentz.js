@@ -24,7 +24,7 @@ var interval = setInterval(function() {
       y1 = y0 + h * (-x0 * z0 + c * x0 - y0);
       z1 = z0 + h * (x0 * y0 - z0);
 
-      context.strokeStyle = "hsl(" + Math.abs(x1)*10 + "," + Math.abs(y1)*10 + "%," + Math.abs(z1)*2 + "%)";
+      //context.strokeStyle = "hsl(" + Math.abs(x1)*10 + "," + Math.abs(y1)*10 + "%," + Math.abs(z1)*2 + "%)";
 
       context.beginPath();
       context.moveTo(cx + x0 * scale, cy + y0 * scale);
