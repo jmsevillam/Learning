@@ -23,9 +23,9 @@ function animate(){
     d = document.getElementById('inputd').value;
     x = y = 0.0;
     //canvas fill style
-    $.fillStyle = "hsla(0, 0%, 100%, 1);";
+    $.fillStyle = "rgb(255,255,255);";
     $.fillRect (0, 0, 600, 600);
-
+    
     reset = false;
   }
   //fill drawing with random / rainbow colors
