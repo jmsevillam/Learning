@@ -24,12 +24,12 @@ function animate(){
     x = y = 0.0;
     //canvas fill style
     $.fillStyle = "hsla(270, 85%, 15%, 1);";
-    $.fillRect (0, 0, 600, 600);
+    $.fillRect (0, 0, 1, 1);
 
     reset = false;
   }
   //fill drawing with random / rainbow colors
-  //$.fillStyle = rndColor();
+  $.fillStyle = rndColor();
   //draw 100 times over these x,y positions
   for(var i = 0; i < 100; i++){
     $.fillRect (300+x*100, 300+y*100, 1, 1);
