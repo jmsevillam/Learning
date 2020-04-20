@@ -24,7 +24,7 @@ function animate(){
     x = y = 0.0;
     //canvas fill style
     //$.fillStyle = "hsla(270, 85%, 15%, 1);";
-    //$.fillRect (0, 0, 600, 600);
+    $.fillRect (0, 0, 600, 600);
 
     reset = false;
   }
