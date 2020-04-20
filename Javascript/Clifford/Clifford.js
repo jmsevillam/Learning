@@ -1,15 +1,16 @@
 /*For more on the Clifford Atrractor and the chaos theory:
 http://en.wikipedia.org/wiki/Clifford_A._Pickover &&
 http://en.wikipedia.org/wiki/Chaos_theory
+-1.3, -1.3, -1.8, -1.9
 */
 
 //starting x,y && function a,b,c,d values
 var x = 0.0;
 var y = 0.0;
-var a = 1.4;
-var b = -1.7;
-var c = 1.7;
-var d = 0.9;
+var a = -1.3;
+var b = -1.3;
+var c = -1.8;
+var d = -1.9;
 var reset = false;
 
 function animate(){
