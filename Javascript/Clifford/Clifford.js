@@ -23,13 +23,13 @@ function animate(){
     d = document.getElementById('inputd').value;
     x = y = 0.0;
     //canvas fill style
-    $.fillStyle = "rgb(255,255,255);";
+    $.fillStyle = "rgb(255,255,255)";
     $.fillRect (0, 0, 600, 600);
 
     reset = false;
   }
   //fill drawing with random / rainbow colors
-  $.fillStyle = "rgb(0,0,0);";//rndColor();
+  $.fillStyle = "rgb(0,0,0)";//rndColor();
   //draw 100 times over these x,y positions
   for(var i = 0; i < 100; i++){
     $.fillRect (300+x*100, 300+y*100, 1, 1);
@@ -48,9 +48,11 @@ function set(){
   reset = true;
 }
 //random color function
+/*
 function rndColor() {
     var r = 255*Math.random()|0,
         g = 255*Math.random()|0,
         b = 255*Math.random()|0;
     return 'rgb(' + r + ',' + g + ',' + b + ')';
 }
+*/
