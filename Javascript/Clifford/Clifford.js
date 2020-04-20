@@ -1,7 +1,6 @@
 /*For more on the Clifford Atrractor and the chaos theory:
 http://en.wikipedia.org/wiki/Clifford_A._Pickover &&
 http://en.wikipedia.org/wiki/Chaos_theory
--1.3, -1.3, -1.8, -1.9
 */
 
 //starting x,y && function a,b,c,d values
