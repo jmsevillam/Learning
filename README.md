@@ -15,7 +15,9 @@ Currently, it has been used to save the codes done while learning Julia. This co
 
 ## Javascript
 
-Javascript offers the possibility to interact with html elements
+Javascript offers the possibility to interact with html elements.
+
+Some simulations already working [link](https://jmsevillam.github.io/Learning/Javascript/)
 
 ## Resources
 
@@ -23,6 +25,8 @@ Javascript offers the possibility to interact with html elements
  - Julia by example [link](https://juliabyexample.helpmanual.io/): I like these learn by example ideas and here is one of many Julia links.
  
  - Free Code Camp [link](https://www.freecodecamp.org/learn/): Great free interactive courses (I have tried so far html, css and javascript)
+
+
 ### About
 My name is Jose Mauricio Sevilla Moreno, I am a physicist just trying to document his experience and ideas doing computational physics. This may include some useful tips for somebody else who also enjoy code+science.
 
