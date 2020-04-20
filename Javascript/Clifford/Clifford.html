@@ -1,0 +1,41 @@
+---
+layout: default
+---
+<!-- Clifford Attractor >>
+Definition:
+xn+1 = sin(a yn) + c cos(a xn)
+yn+1 = sin(b xn) + d cos(b yn)
+where a, b, c, d are variabies that define each attractor.
+
+Initial Pen Settings: a = 1.5, b = -1.8, c = 1.6, d = 0.9
+
+Try:
+ * a = -1.4, b = 1.6, c = 1.0, d = 0.7
+ * a = 1.6, b = -0.6, c = -1.2, d = 1.6
+ * a = 1.7, b = 1.7, c = 0.6, d = 1.2
+ * a = -1.7, b = 1.3, c = -0.1, d = -1.2
+ * a = -1.7, b = 1.8, c = -1.9, d = -0.4
+ * a = -1.8, b = -2.0, c = -0.5, d = -0.9
+
+ <body>
+ <h1>Lorentz Attractor</h1>
+ <p>This is a Test for a lorentz attractor. </p>
+ <canvas id="canvas" width="500" height="660"></canvas>
+ <script src= "Lorentz.js"></script>
+ </body>
+!-->
+
+<body onload="animate();">
+    <h1>Clifford Attractor</h1><p>
+     <label for="inputa">A:</label>
+     <input id="inputa" type="text" value="1.5"><br>
+     <label for="inputb">B:</label>
+     <input id="inputb" type="text" value="-1.8"><br>
+     <label for="inputc">C:</label>
+     <input id="inputc" type="text" value="1.6"><br>
+     <label for="inputb">D:</label>
+     <input id="inputd" type="text" value="0.9"><br>
+     <input  type = 'button' onclick="set();" value='Set'></p>
+   <canvas id="canv" width="600" height="600"></canvas>
+    <script src= "Clifford.js"></script>
+</body>
