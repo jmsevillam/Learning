@@ -3,7 +3,7 @@
 var canvas = document.getElementById('canvas'),
     context = canvas.getContext('2d'),
     c = 28,
-    h = 0.015,
+    h = 0.001,
     t = -6,
     x0 = 0,
     y0 = 1,
@@ -14,7 +14,7 @@ var canvas = document.getElementById('canvas'),
     cx = 250,
     cy = 330,
     scale = 15,
-    n = 20000,
+    n = 200000,
     i = 0;
 
 var interval = setInterval(function() {
