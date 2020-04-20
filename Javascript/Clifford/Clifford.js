@@ -8,7 +8,7 @@ var x = 0.0;
 var y = 0.0;
 var a = 1.4;
 var b = -1.7;
-var c = 1.5;
+var c = 1.7;
 var d = 0.9;
 var reset = false;
 
@@ -29,7 +29,9 @@ function animate(){
     reset = false;
   }
   //fill drawing with random / rainbow colors
-  $.fillStyle = "rgb(0,0,0)";//rndColor();
+  //$.fillStyle = rndColor();
+
+  $.fillStyle = "rgb(0,0,0)";
   //draw 100 times over these x,y positions
   for(var i = 0; i < 100; i++){
     $.fillRect (300+x*100, 300+y*100, 1, 1);
@@ -47,12 +49,3 @@ function animate(){
 function set(){
   reset = true;
 }
-//random color function
-/*
-function rndColor() {
-    var r = 255*Math.random()|0,
-        g = 255*Math.random()|0,
-        b = 255*Math.random()|0;
-    return 'rgb(' + r + ',' + g + ',' + b + ')';
-}
-*/
