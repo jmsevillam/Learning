@@ -8,7 +8,7 @@ var x = 0.0;
 var y = 0.0;
 var a = 1.4;
 var b = -1.7;
-var c = 1.7;
+var c = 1.5;
 var d = 0.9;
 var reset = false;
 
