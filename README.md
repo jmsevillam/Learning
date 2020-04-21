@@ -25,10 +25,10 @@ Some simulations already working live hosted on github pages [link](https://jmse
  
 
 ## Resources
+Here you can find some links to material I have been using to learn
 
  - Learn X in Y minutes [link](https://learnxinyminutes.com/): I liked the style as it is just a simple example introducing the main features. I really liked makefile - Julia and Ruby tutorials.
  - Julia by example [link](https://juliabyexample.helpmanual.io/): I like these learn by example ideas and here is one of many Julia links.
- 
  - Free Code Camp [link](https://www.freecodecamp.org/learn/): Great free interactive courses (I have tried so far html, css and javascript)
 
 
