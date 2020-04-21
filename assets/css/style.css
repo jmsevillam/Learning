@@ -2,3 +2,12 @@
 ---
 
 @import "{{ site.theme }}";
+
+
+header {
+  padding:20px;
+  
+  float:left;
+  position:fixed;
+  -webkit-font-smoothing:subpixel-antialiased;
+}
