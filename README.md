@@ -15,9 +15,14 @@ Currently, it has been used to save the codes done while learning Julia. This co
 
 ## Javascript
 
-Javascript offers the possibility to interact with html elements.
+Javascript offers the possibility to interact with html elements in a _simple_, clean and natural way.
 
-Some simulations already working [link](https://jmsevillam.github.io/Learning/Javascript/)
+Some simulations already working live hosted on github pages [link](https://jmsevillam.github.io/Learning/Javascript/)
+
+  - Ball [link](https://jmsevillam.github.io/Learning/Javascript/box/box.html)
+  - Lorentz [link](https://jmsevillam.github.io/Learning/Javascript/Lorentz/Lorentz.html)
+  - Clifford Map [link](https://jmsevillam.github.io/Learning/Javascript/Clifford/Clifford.html)
+ 
 
 ## Resources
 
