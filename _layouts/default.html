@@ -1,12 +1,6 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
-    <style>
-section.ex1 {
-  max-width: 150px;
-}
-</style>
-
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -44,11 +38,9 @@ section.ex1 {
         </ul>
         {% endif %}
       </header>
-      <section class="ex1">
 
       {{ content }}
 
-      </section>
       <footer>
         {% if site.github.is_project_page %}
         <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
