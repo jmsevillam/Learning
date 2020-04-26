@@ -74,7 +74,7 @@ Transform.prototype.applyTransform = function(point) {
 
 var fractal = new IFS(
   document.querySelector('canvas'),
-  window.innerWidth,
+  window.innerWidth/2.,
   window.innerHeight,
   [
     // Barnsley Fern IFS parameters
