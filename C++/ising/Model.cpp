@@ -7,9 +7,7 @@ int main(int argc, char const *argv[]) {
   int Num=atoi(argv[2]);
   int iter=atoi(argv[3]);
   double dT=(4.0)/(Num+1.0);
-  double T;
-  for (int j=0;j<Num;j++){
-    T=j*dT;
+  for (double T=0;T<4;T+=dT){
     model.Temp(T);
     for(int i=0;i<iter;i++){
       model.Time_Step();
